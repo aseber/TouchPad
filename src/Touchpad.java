@@ -19,6 +19,10 @@ public class Touchpad
 	public static class ContentPanel extends JPanel
 	{
 		
+		/**
+		 * 
+		 */
+		private static final long serialVersionUID = 2330920055269379430L;
 		static int appletX, appletY, oldAppletX, oldAppletY;
 		static int[] boxX;
 		static int[] boxY;
